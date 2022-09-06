@@ -1,31 +1,18 @@
 @media (min-width: 992px) {
 
   .country{
-    display: flex;
-    justify-content: center;
-    column-gap: 30%;
-    text-align: center;
-
-    button{
-      background-color: transparent;
-      border: none;
-
+    a{
       display: flex;
+      justify-content: space-between;
       align-items: center;
-      flex-direction: column;
-      row-gap: 10px;
-      color: #fff;
-
-      &:hover{
-        text-decoration: underline;
-      }
     }
 
     aside{
-      width: 100px;
-      height: 100px;
+      width: 30px;
+      height: 30px;
       border-radius: 50%;
       box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      transition: transform .3s;
     
       &.kr{
         background-color: #FFFFFF;
